@@ -1,7 +1,7 @@
 #!/bin/sh
 sqlite3 AdventureWorks.db <<EOF
 .read create_tables.sql
-.mode list
+.mode list 
 .import csv/DimCurrency.csv DimCurrency
 .import csv/DimCustomer.csv DimCustomer
 .import csv/DimDate.csv DimDate
