@@ -9,4 +9,4 @@ DimCustomer C
 LEFT JOIN customer_email_a as A 
 ON C.CustomerKey = A.CustomerKEY
 LEFT JOIN customer_address_us as B
-ON C.CustomerKey = B.CustomerKEY
+ON C.CustomerKey = B.CustomerKEY;
